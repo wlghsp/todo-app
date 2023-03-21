@@ -2,7 +2,7 @@ import './App.css';
 import TodoTemplate from "./components/TodoTemplate";
 import TodoInsert from "./components/TodoInsert";
 import TodoList from "./components/TodoList";
-import {useCallback, useReducer, useRef, useState} from "react";
+import {useCallback, useReducer, useRef} from "react";
 
 
 function createBulkTodos() {
